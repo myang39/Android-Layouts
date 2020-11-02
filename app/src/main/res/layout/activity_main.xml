@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <include android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         layout="@layout/instant_promo_upsell"></include>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

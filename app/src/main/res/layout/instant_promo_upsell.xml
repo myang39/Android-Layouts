@@ -4,11 +4,25 @@
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content">
 
+<!--	<TextView-->
+<!--		android:id="@+id/promo_title"-->
+<!--		android:gravity="center_horizontal"-->
+<!--		android:text="unlock all features"-->
+<!--		app:layout_constraintBottom_toTopOf="@id/two"-->
+<!--		app:layout_constraintEnd_toEndOf="parent"-->
+<!--		app:layout_constraintStart_toStartOf="parent"-->
+<!--		app:layout_constraintTop_toTopOf="parent"-->
+<!--		android:layout_height="wrap_content"-->
+<!--		android:layout_width="wrap_content" />-->
+
 	<com.example.layouttester.PromoIconAndLabel
 		android:id="@+id/one"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		app:image="@drawable/ic_launcher_background"
+		app:image="@drawable/ic_live_scores"
+		app:label="Read recap"
+		android:layout_marginTop="18dp"
+		android:paddingBottom="20dp"
 		app:layout_constraintHorizontal_chainStyle="spread"
 		app:layout_constraintTop_toTopOf="parent"
 		app:layout_constraintBottom_toBottomOf="parent"
@@ -18,7 +32,10 @@
 		android:id="@+id/two"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		app:image="@drawable/ic_launcher_background"
+		app:image="@drawable/ic_stream_live_games"
+		app:label="Share results"
+		android:layout_marginTop="18dp"
+		android:paddingBottom="20dp"
 		app:layout_constraintTop_toTopOf="parent"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintStart_toEndOf="@id/one"
@@ -28,9 +45,19 @@
 		android:id="@+id/three"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		app:image="@drawable/ic_launcher_background"
+		app:image="@drawable/ic_watch_with_friends"
+		app:label="Share on Snapchat"
+		android:layout_marginTop="18dp"
+		android:paddingBottom="20dp"
 		app:layout_constraintTop_toTopOf="parent"
 		app:layout_constraintBottom_toBottomOf="parent"
-		app:layout_constraintEnd_toEndOf="parent"/>
+		app:layout_constraintEnd_toEndOf="parent" />
+
+	<androidx.constraintlayout.widget.Barrier
+		android:id="@+id/promo_top_row_barrier"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:barrierDirection="bottom"
+		app:constraint_referenced_ids="one,two,three" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

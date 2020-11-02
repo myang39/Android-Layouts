@@ -29,15 +29,17 @@
 
     <TextView
         android:id="@+id/promo_label"
-        android:layout_width="92dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:ellipsize="none"
+        android:textSize="14sp"
+        android:textColor="#188fff"
         android:gravity="center_horizontal"
         android:scrollHorizontally="false"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/promo_circle_background"
-        tools:text="Stream Live Games" />
+        tools:text="Stream Live Games"
+        android:singleLine="true" />
 
 </merge>
