@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Copied from core module. Once core-ui is available this will go away and color_palette will be maintained in a common module -->
+
+	<!--
+		These colors are not to be used directly.
+		All colors should be indirectly referenced via a style.
+
+		** If you must reference a color in code or layout, then create
+		an alias elsewhere with an appropriate name that references the color_palette item that you want.
+	-->
+
+	<!-- Color Palette -->
+	<color name="red">#ff0000</color>
+	<color name="blue">#0000ff</color>
+	<color name="green">#00ff00</color>
+
+	<!-- Design Guideline Color Palette-->
+	<color name="ys_color_green_mulah">#1AC567</color>
+
+	<color name="ys_color_dark_blue_1">#1D2849</color>
+	<color name="ys_color_dark_blue_2">#1C2131</color>
+	<color name="ys_color_transparent_white">#00FFFFFF</color>
+	<color name="ys_color_white">#FFFFFF</color>
+	<color name="ys_color_white_05pct">#0CFFFFFF</color>
+	<color name="ys_color_white_10pct">#1AFFFFFF</color>
+	<color name="ys_color_white_15pct">#26FFFFFF</color>
+	<color name="ys_color_white_20pct">#33FFFFFF</color>
+	<color name="ys_color_white_30pct">#4DFFFFFF</color>
+	<color name="ys_color_white_40pct">#66FFFFFF</color>
+	<color name="ys_color_white_50pct">#80FFFFFF</color>
+	<color name="ys_color_white_70pct">#B3FFFFFF</color>
+	<color name="ys_color_white_80pct">#CDFFFFFF</color>
+	<color name="ys_color_transparent_black">#00000000</color>
+	<color name="ys_color_black">#000000</color>
+	<color name="ys_color_black_15pct">#26000000</color>
+	<color name="ys_color_black_25pct">#40000000</color>
+	<color name="ys_color_black_40pct">#66000000</color>
+	<color name="ys_color_black_45pct">#73000000</color>
+	<color name="ys_color_black_50pct">#7F000000</color>
+	<color name="ys_color_black_75pct">#C0000000</color>
+	<color name="ys_color_black_80pct">#CC000000</color>
+	<color name="ys_color_black_1">#231F20</color>
+	<color name="ys_color_black_2">#171A1C</color>
+	<color name="ys_color_black_3">#131617</color>
+	<color name="ys_color_black_4">#0F1112</color>
+	<color name="ys_color_black_5">#171917</color>
+	<color name="ys_color_black_6">#121415</color>
+	<color name="ys_color_black_7">#1D2228</color>
+	<color name="ys_color_black_8">#2C2C2C</color>
+	<color name="ys_color_black_9">#303030</color>
+	<color name="ys_color_black_inkwell">#1D2228</color>
+	<color name="ys_color_black_inkwell_00pct">#001D2228</color>
+	<color name="ys_color_black_inkwell_10pct">#1A1D2228</color>
+	<color name="ys_color_black_inkwell_12pct">#1D1D2228</color>
+	<color name="ys_color_black_inkwell_45pct">#731d2228</color>
+	<color name="ys_color_black_inkwell_50pct">#801D2228</color>
+	<color name="ys_color_black_inkwell_80pct">#CE1D2228</color>
+	<color name="ys_color_black_inkwell_90pct">#E61D2228</color>
+	<color name="ys_background_dark_gradient_00pct">#00121213</color>
+	<color name="ys_background_dark_gradient_20pct">#33121213</color>
+	<color name="ys_background_dark_gradient_50pct">#7f121213</color>
+	<color name="ys_background_dark_gradient_80pct">#cd121213</color>
+	<color name="ys_background_dark_gradient_100pct">#ff121213</color>
+	<color name="ys_background_light_gradient_00pct">#00EDEDEC</color>
+	<color name="ys_background_light_gradient_20pct">#33EDEDEC</color>
+	<color name="ys_background_light_gradient_50pct">#7fEDEDEC</color>
+	<color name="ys_background_light_gradient_80pct">#cdEDEDEC</color>
+	<color name="ys_background_light_gradient_100pct">#ffEDEDEC</color>
+	<color name="ys_color_grey_shark">#828C93</color>
+	<color name="ys_color_grey_werewolf">#767d84</color>
+	<color name="ys_color_grey_pebble">#B9BDC5</color>
+	<color name="ys_color_grey_pebble_20pct">#32B9BDC5</color>
+	<color name="ys_color_grey_batcave">#232A31</color>
+	<color name="ys_color_grey_dirty_seagull">#E0E4E9</color>
+	<color name="ys_color_grey_batcave_50pct">#80232A31</color>
+	<color name="ys_color_grey_batcave_21pct">#33232a31</color>
+	<color name="ys_color_grey_grey_hair">#f1f1f5</color>
+	<color name="ys_color_grey_dirty_seagull_20pct">#32E0E4E9</color>
+	<color name="ys_color_grey_charcoal">#464E56</color>
+	<color name="ys_color_grey_N">#EFEFEF</color>
+	<color name="ys_color_grey_0">#EDEDF1</color>
+	<color name="ys_color_grey_1">#1E2024</color>
+	<color name="ys_color_grey_2">#f1f1f5</color>
+	<color name="ys_color_grey_3">#e0e4e9</color>
+	<color name="ys_color_grey_4">#fcfdff</color>
+	<color name="ys_color_grey_5">#fdf8fa</color>
+	<color name="ys_color_grey_6">#313639</color>
+	<color name="ys_color_grey_7">#b9b9b9</color>
+	<color name="ys_color_grey_8">#787d82</color>
+	<color name="ys_color_grey_9">#949CA4</color>
+	<color name="ys_color_grey_10">#E0E0E0</color>
+	<color name="ys_color_grey_11">#26282A</color>
+	<color name="ys_color_grey_12">#9FA0A0</color>
+	<color name="ys_color_grey_13">#B31D1D26</color>
+	<color name="ys_color_grey_14">#33585858</color>
+	<color name="ys_color_grey_15">#B9BDC5</color>
+	<color name="ys_color_grey_16">#D8D8D8</color>
+	<color name="ys_color_grey_17">#EEEEEE</color>
+	<color name="ys_color_battleship">#5B636A</color>
+	<color name="ys_color_transparent_battleship">#F25B636A</color>
+	<color name="ys_color_fuji_grey_4">#D8DADE</color>
+	<color name="ys_color_fuji_grey_5">#B9BDC5</color>
+	<color name="ys_color_fuji_grey_7">#878C91</color>
+	<color name="ys_color_fuji_grey_9">#464E56</color>
+	<color name="ys_color_beige">#c9b447</color>
+	<color name="ys_color_blue_smurfette">#188FFF</color>
+	<color name="ys_color_blue">#0091FF</color>
+	<color name="ys_color_blue_1">#2d6cab</color>
+	<color name="ys_color_blue_2">#3E78AD</color>
+	<color name="ys_color_blue_3">#4E00A3</color>
+	<color name="ys_color_blue_4">#400090</color>
+	<color name="ys_color_blue_5">#00C3FF</color>
+	<color name="ys_color_blue_6">#062A4C</color>
+	<color name="ys_color_blue_7">#2392FC</color>
+	<color name="ys_color_blue_8">#24B6F7</color>
+	<color name="ys_color_blue_9">#26D9F2</color>
+	<color name="ys_color_blue_7_25pct">#402392FC</color>
+	<color name="ys_color_blue_8_25pct">#4024B6F7</color>
+	<color name="ys_color_blue_9_25pct">#4026D9F2</color>
+	<color name="ys_color_blue_dark">#000a8a</color>
+	<color name="ys_color_blue_light">#eef1fa</color>
+	<color name="ys_color_purple_1">#7759ff</color>
+	<color name="ys_color_purple_2">#6001d2</color>
+	<color name="ys_color_purple_3">#6E36ED</color>
+	<color name="ys_color_purple_4">#7E1FFF</color>
+	<color name="ys_color_green">#1ac567</color>
+	<color name="ys_color_green_1">#324214</color>
+	<color name="ys_color_green_2">#283411</color>
+	<color name="ys_color_green_3">#1e280c</color>
+	<color name="ys_color_green_4">#6072b464</color>
+	<color name="ys_color_green_5">#00B061</color>
+	<color name="ys_color_green_6">#92D0B4</color>
+	<color name="ys_color_green_7">#1EE699</color>
+	<color name="ys_color_green_8">#00AB5E</color>
+	<color name="ys_color_green_field">#2c311e</color>
+	<color name="ys_color_red">#F0162F</color>
+	<color name="ys_color_red_1">#911700</color>
+	<color name="ys_color_red_2">#d42a25</color>
+	<color name="ys_color_red_3_gradient_85pct">#D8FF333A</color>
+	<color name="ys_color_red_4">#FF2946</color>
+	<color name="ys_color_red_5">#FF4D52</color>
+	<color name="ys_color_yellow">#FFE88F</color>
+	<color name="ys_color_yellow_2_gradient_85pct">#D8FF6B27</color>
+	<color name="ys_color_yellow_3">#FFD333</color>
+	<color name="ys_color_fuji_orange">#FF520D</color>
+	<color name="ys_color_orange_electric_dusk">#FF520D</color>
+	<color name="ys_color_orange">#FF520D</color>
+	<color name="ys_color_orange_2">#FF333A</color>
+	<color name="ys_color_hot_pink">#FF69B4</color>
+	<color name="ys_color_pancho">#e0b997</color>
+
+</resources>

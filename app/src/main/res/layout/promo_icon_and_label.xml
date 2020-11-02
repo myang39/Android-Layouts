@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/promo_circle_background"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/white_circle_shape"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toTopOf="@id/promo_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/promo_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:contentDescription="Share Results"
+        app:layout_constraintBottom_toBottomOf="@id/promo_circle_background"
+        app:layout_constraintStart_toStartOf="@id/promo_circle_background"
+        app:layout_constraintEnd_toEndOf="@id/promo_circle_background"
+        app:layout_constraintTop_toTopOf="@id/promo_circle_background" />
+
+    <TextView
+        android:id="@+id/promo_label"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="none"
+        android:gravity="center_horizontal"
+        android:scrollHorizontally="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/promo_circle_background"
+        tools:text="Stream Live Games" />
+
+</merge>
